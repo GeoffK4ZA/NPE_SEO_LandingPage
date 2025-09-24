@@ -9,51 +9,47 @@ export default function FounderStory() {
         <div className="bg-white rounded-2xl p-8 shadow-lg">
           <div className="grid md:grid-cols-3 gap-8 items-center">
             <div className="text-center">
-              <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-mint/20 flex items-center justify-center text-2xl font-medium text-gray-600">
-                ST
+              <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-mint/20">
+                <div className="w-full h-full flex items-center justify-center text-4xl">
+                  🤱
+                </div>
               </div>
               <div className="text-sm text-charcoal/60">
                 Created by
               </div>
               <div className="font-semibold text-charcoal">
-                Sarah Thompson
+                An Expecting Parent
               </div>
               <div className="text-sm text-charcoal/70">
-                Mum of Two<br />
-                Hampshire, UK
+                Who couldn't find what<br />
+                they needed anywhere
               </div>
             </div>
 
             <div className="md:col-span-2">
               <div className="bg-peach/10 rounded-lg p-6 mb-6">
                 <p className="text-charcoal/80 font-medium italic">
-                  "After struggling through week one with my first baby, I was determined to help other parents feel more prepared."
+                  "I searched everywhere for week one guidance that wasn't overwhelming or generic. Nothing existed for what I actually needed."
                 </p>
               </div>
 
               <p className="text-charcoal/80 mb-4">
-                Week one with my first baby was overwhelming. I felt unprepared despite reading countless books and articles. The practical day-to-day challenges weren't covered anywhere.
+                As an expecting parent, I spent hours online looking for practical week one help. Everything was either too medical, too vague, or assumed I already knew what I was doing.
               </p>
 
               <p className="text-charcoal/80 mb-4">
-                When my second baby arrived, I had learned what actually mattered. I created simple systems that worked, and friends started asking for copies. This pack evolved from those real-world solutions that helped me feel confident instead of constantly worried.
+                So I did what any determined parent would do - I reached out to experienced parents, spoke with midwives, and compiled the real advice that actually works. This pack is everything I wish had existed when I was searching.
               </p>
 
               <div className="grid md:grid-cols-2 gap-4 text-sm">
                 <div className="bg-mint/10 rounded-lg p-3">
-                  <div className="font-medium text-deep-green">✓ Tested with real families</div>
-                  <div className="text-charcoal/70">Practical solutions that work</div>
+                  <div className="font-medium text-deep-green">✓ Consulted experienced parents</div>
+                  <div className="text-charcoal/70">Real stories, practical advice</div>
                 </div>
                 <div className="bg-mint/10 rounded-lg p-3">
-                  <div className="font-medium text-deep-green">✓ Refined through experience</div>
-                  <div className="text-charcoal/70">Two babies, lessons learned</div>
+                  <div className="font-medium text-deep-green">✓ Spoke with midwives</div>
+                  <div className="text-charcoal/70">Professional guidance simplified</div>
                 </div>
-              </div>
-
-              <div className="mt-6 pt-4 border-t border-gray-200">
-                <p className="text-xs text-charcoal/60">
-                  📧 Questions? Email me at hello@newparentessentials.com
-                </p>
               </div>
             </div>
           </div>

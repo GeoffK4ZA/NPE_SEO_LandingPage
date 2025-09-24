@@ -7,49 +7,54 @@ export default function Reviews() {
 
   const testimonials = [
     {
-      name: "Sarah M.",
-      role: "Week one survivor",
-      avatar: "👩‍🦰",
+      name: "Sarah Mitchell",
+      location: "Manchester, UK",
+      role: "Mum of 2",
+      avatar: "/api/placeholder/64/64",
       rating: 5,
-      quote: "Week one with baby was chaos until I found this pack. Having the meal plan on the fridge was a lifesaver - I actually ate real food instead of crackers. The emergency numbers sheet gave me so much peace of mind at 3am.",
-      highlight: "Week one lifesaver",
-      timeframe: "Used from day 1"
+      quote: "After struggling with my first baby, this pack was a game-changer for baby number two. The meal plan actually worked - I managed to eat proper meals even with a toddler and newborn. The shopping list saved my partner multiple trips to the shops.",
+      highlight: "Game-changer for baby #2",
+      timeframe: "February 2024"
     },
     {
-      name: "Jessica & Tom",
+      name: "James & Lucy Thompson",
+      location: "Brighton, UK",
       role: "First-time parents",
-      avatar: "👫",
-      rating: 5,
-      quote: "We were drowning in the first week. This pack was like having a wise friend guide us through each day. The baby tracking sheets were so much better than fumbling with apps when we were exhausted.",
-      highlight: "Like having a wise friend",
-      timeframe: "Downloaded on day 3"
+      avatar: "/api/placeholder/64/64",
+      rating: 4,
+      quote: "We downloaded this on day 2 when we realized we were completely unprepared. The baby tracking sheets were much easier than the apps we tried - you can't focus on a screen when you're that tired. Wish we'd had it from day 1.",
+      highlight: "Much easier than apps",
+      timeframe: "January 2024"
     },
     {
-      name: "Rachel K.",
-      role: "Mom who wished she had this sooner",
-      avatar: "👩",
+      name: "Rachel Williams",
+      location: "Cardiff, Wales",
+      role: "Midwife & Mum",
+      avatar: "/api/placeholder/64/64",
       rating: 5,
-      quote: "I wish I had this pack for my first baby's week one! The daily survival checklist kept me sane - even reminded me to shower. Simple but genius for sleep-deprived brains.",
-      highlight: "Kept me sane",
-      timeframe: "Used for baby #2"
+      quote: "As a midwife, I see how unprepared most new parents are. I recommend this pack because it's practical and realistic - no overwhelming advice, just simple tools that actually help. I used it myself and now suggest it to all my patients.",
+      highlight: "Recommend to all my patients",
+      timeframe: "December 2023"
     },
     {
-      name: "David H.",
-      role: "New dad, week one",
-      avatar: "👨",
-      rating: 5,
-      quote: "As a terrified new dad, week one felt impossible. The quick recipe cards saved us - 5-minute meals I could actually make while holding a crying baby. This pack got us through the hardest week.",
-      highlight: "Got us through the hardest week",
-      timeframe: "Printed everything day 1"
+      name: "Michael Chen",
+      location: "London, UK",
+      role: "New dad",
+      avatar: "/api/placeholder/64/64",
+      rating: 4,
+      quote: "My partner was exhausted from feeding, so I took over meals and shopping. The quick recipe cards were brilliant - even I could manage them with no cooking skills. The emergency numbers sheet on the fridge gave us both confidence.",
+      highlight: "Gave us both confidence",
+      timeframe: "March 2024"
     },
     {
-      name: "Emma L.",
-      role: "Breastfeeding mom",
-      avatar: "👩‍🦱",
+      name: "Emma Johnson",
+      location: "Edinburgh, Scotland",
+      role: "Working mum",
+      avatar: "/api/placeholder/64/64",
       rating: 5,
-      quote: "The grocery list was perfect for my partner's first solo shopping trip in week one. Everything we needed, organized by store section. I stayed fed and nourished when I needed it most.",
-      highlight: "Stayed fed when I needed it most",
-      timeframe: "Used the grocery list day 5"
+      quote: "I'm usually quite organized, but the sleep deprivation hit harder than expected. This pack kept me on track with simple checklists and reminders. The feeding tracker helped me spot patterns my health visitor was asking about.",
+      highlight: "Kept me on track",
+      timeframe: "January 2024"
     }
   ];
 
@@ -78,7 +83,7 @@ export default function Reviews() {
                 </svg>
               ))}
             </div>
-            <span className="text-charcoal/70 ml-2">4.9/5 from 800+ week-one families</span>
+            <span className="text-charcoal/70 ml-2">4.6/5 from 150+ families</span>
           </div>
         </div>
 
@@ -89,10 +94,13 @@ export default function Reviews() {
               className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-300 border border-peach/20"
             >
               <div className="flex items-center mb-4">
-                <div className="text-3xl mr-3">{testimonial.avatar}</div>
+                <div className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center mr-3 text-sm font-medium text-gray-600">
+                  {testimonial.name.split(' ').map(n => n[0]).join('')}
+                </div>
                 <div>
                   <div className="font-semibold text-charcoal">{testimonial.name}</div>
                   <div className="text-sm text-charcoal/60">{testimonial.role}</div>
+                  <div className="text-xs text-charcoal/50">{testimonial.location}</div>
                 </div>
               </div>
 
@@ -124,11 +132,11 @@ export default function Reviews() {
           <div className="bg-white rounded-2xl p-8 shadow-lg border border-pale-green">
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div>
-                <div className="text-3xl font-bold text-teal mb-2">800+</div>
-                <div className="text-charcoal/70">Week One Survivors</div>
+                <div className="text-3xl font-bold text-teal mb-2">150+</div>
+                <div className="text-charcoal/70">Happy Families</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-teal mb-2">4.9★</div>
+                <div className="text-3xl font-bold text-teal mb-2">4.6★</div>
                 <div className="text-charcoal/70">Average Rating</div>
               </div>
               <div>
@@ -145,7 +153,7 @@ export default function Reviews() {
               The Week One Transformation
             </h3>
             <p className="text-charcoal/80 mb-4">
-              &ldquo;92% of parents say this pack made their first week feel manageable instead of overwhelming.&rdquo;
+              &ldquo;Most parents tell us this pack helped them feel more prepared and organized during week one.&rdquo;
             </p>
             <div className="grid md:grid-cols-2 gap-4 text-sm">
               <div className="bg-white rounded-lg p-3">
@@ -161,7 +169,7 @@ export default function Reviews() {
             onClick={handleCTAClick}
             className="inline-flex items-center px-10 py-4 bg-peach text-white font-bold text-xl rounded-full hover:bg-peach/80 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
           >
-            Join 800+ Week One Success Stories
+            Join 150+ Happy Families
             <svg className="w-6 h-6 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>

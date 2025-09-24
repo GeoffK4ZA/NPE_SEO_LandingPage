@@ -40,7 +40,7 @@ export default function Pricing() {
 
         <div className="bg-light-neutral border-2 border-mint rounded-2xl p-8 shadow-2xl relative overflow-hidden">
           <div className="absolute top-0 right-0 bg-peach text-white px-6 py-2 rounded-bl-lg font-semibold">
-            🔥 First 500 Customers
+            💝 Limited Time
           </div>
 
           <div className="text-center mb-8">
@@ -78,27 +78,27 @@ export default function Pricing() {
 
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-pale-green">
-                <h4 className="font-semibold text-charcoal mb-3">Alternative Solutions Cost:</h4>
+                <h4 className="font-semibold text-charcoal mb-3">What You'd Spend Separately:</h4>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
-                    <span>Personal meal planning service</span>
-                    <span>£120+</span>
+                    <span>Meal planning book</span>
+                    <span>£15-25</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Postpartum doula session</span>
-                    <span>£80+/hr</span>
+                    <span>Baby tracking app premium</span>
+                    <span>£5-10/month</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Lactation consultant visit</span>
-                    <span>£160+</span>
+                    <span>Parenting guides</span>
+                    <span>£20-30</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Newborn care class</span>
-                    <span>£60+</span>
+                    <span>Recipe collection</span>
+                    <span>£10-15</span>
                   </div>
                   <div className="border-t pt-2 font-semibold flex justify-between">
-                    <span>Professional support</span>
-                    <span>£420+</span>
+                    <span>Separate purchases</span>
+                    <span>£50-80</span>
                   </div>
                 </div>
               </div>
@@ -106,7 +106,7 @@ export default function Pricing() {
               <div className="text-center">
                 <div className="text-2xl font-bold text-teal mb-2">Get It All For £9.99</div>
                 <div className="text-sm text-charcoal/70">
-                  Week one essentials at a fraction of the cost
+                  All-in-one convenience at a great price
                 </div>
               </div>
             </div>
@@ -148,19 +148,14 @@ export default function Pricing() {
         <div className="mt-12 text-center">
           <div className="bg-light-peach/50 rounded-xl p-6 max-w-3xl mx-auto">
             <h3 className="font-semibold text-charcoal mb-3">
-              🎁 First 500 Customer Bonus: Complete Week 2-4 Guide Pack
+              📧 What You Get With Your Purchase
             </h3>
             <p className="text-charcoal/80 mb-4">
-              Early customers get exclusive access to our Week 2-4 expansion pack (normally £15). Plus free lifetime updates as we add new week-specific guides.
+              Instant access to all materials, plus helpful email tips for your first month as new parents.
             </p>
             <div className="bg-white/70 rounded-lg p-3">
               <p className="text-sm text-charcoal/70">
-                ✓ Week 2-4 survival guides (bonus) ✓ Sleep progression trackers ✓ Feeding milestone cards ✓ All future updates
-              </p>
-            </div>
-            <div className="bg-peach/20 rounded-lg p-3 mt-3">
-              <p className="text-sm text-deep-green font-medium">
-                Total bonus value: £37 • Yours free as an early customer
+                ✓ Complete Week 1 survival pack ✓ Printable formats ✓ Email support tips ✓ 30-day guarantee
               </p>
             </div>
           </div>

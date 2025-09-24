@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "New Parent Essentials - Complete Guide Bundle for New Parents",
-  description: "Transform your parenting experience with printable guides, tracking sheets, and expert advice. Get organized, feel confident, and reduce stress from day one. 30-day guarantee.",
+  description: "Transform your parenting experience with printable guides, tracking sheets, and expert advice. Get organised, feel confident, and reduce stress from day one. 30-day guarantee.",
   keywords: "new parent guide, baby tracking sheets, parenting cheat sheets, newborn schedule, feeding tracker, sleep guide, parenting confidence, baby milestones",
   authors: [{ name: "New Parent Essentials" }],
   creator: "New Parent Essentials",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "New Parent Essentials - Complete Guide Bundle for New Parents",
-    description: "Transform your parenting experience with printable guides, tracking sheets, and expert advice. Get organized, feel confident, and reduce stress from day one.",
+    description: "Transform your parenting experience with printable guides, tracking sheets, and expert advice. Get organised, feel confident, and reduce stress from day one.",
     url: "https://newparentessentials.com",
     siteName: "New Parent Essentials",
     images: [
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "New Parent Essentials - Complete Guide Bundle for New Parents",
-    description: "Transform your parenting experience with printable guides, tracking sheets, and expert advice. Get organized, feel confident, and reduce stress from day one.",
+    description: "Transform your parenting experience with printable guides, tracking sheets, and expert advice. Get organised, feel confident, and reduce stress from day one.",
     images: ["/og-image.jpg"],
   },
   robots: {

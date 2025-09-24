@@ -28,7 +28,7 @@ export default function Solution() {
       icon: "📞",
       title: "Emergency Numbers Sheet",
       description: "Stick this on the fridge for those 2am moments when you can't think straight",
-      preview: "Pediatrician, lactation consultant, poison control",
+      preview: "GP, health visitor, NHS 111",
       time: "Week 1 Essential",
       image: "/assets/images/How To Page.png"
     },
@@ -164,7 +164,7 @@ export default function Solution() {
               <ul className="space-y-2 text-sm text-charcoal/80">
                 <li>• 7 days of nourishing meals planned out</li>
                 <li>• Simple paper trackers that actually work</li>
-                <li>• Daily checklists keep you organized</li>
+                <li>• Daily checklists keep you organised</li>
                 <li>• Emergency numbers ready on your fridge</li>
               </ul>
             </div>
@@ -209,7 +209,7 @@ export default function Solution() {
                   </div>
                   <div className="flex items-center">
                     <span className="text-mint mr-2">☐</span>
-                    <span>Check baby's diaper before feeding</span>
+                    <span>Check baby's nappy before feeding</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-mint mr-2">☐</span>

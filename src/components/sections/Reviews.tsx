@@ -52,7 +52,7 @@ export default function Reviews() {
       role: "Working mum",
       avatar: "/api/placeholder/64/64",
       rating: 5,
-      quote: "I'm usually quite organized, but the sleep deprivation hit harder than expected. This pack kept me on track with simple checklists and reminders. The feeding tracker helped me spot patterns my health visitor was asking about.",
+      quote: "I'm usually quite organised, but the sleep deprivation hit harder than expected. This pack kept me on track with simple checklists and reminders. The feeding tracker helped me spot patterns my health visitor was asking about.",
       highlight: "Kept me on track",
       timeframe: "January 2024"
     }
@@ -72,7 +72,7 @@ export default function Reviews() {
             <span className="text-teal">Week One</span> Success Stories
           </h2>
           <p className="text-lg text-charcoal/70 max-w-3xl mx-auto">
-            Real parents sharing how this pack transformed their hardest week into their most organized
+            Real parents sharing how this pack transformed their hardest week into their most organised
           </p>
 
           <div className="flex items-center justify-center mt-8 space-x-2">
@@ -153,7 +153,7 @@ export default function Reviews() {
               The Week One Transformation
             </h3>
             <p className="text-charcoal/80 mb-4">
-              &ldquo;Most parents tell us this pack helped them feel more prepared and organized during week one.&rdquo;
+              &ldquo;Most parents tell us this pack helped them feel more prepared and organised during week one.&rdquo;
             </p>
             <div className="grid md:grid-cols-2 gap-4 text-sm">
               <div className="bg-white rounded-lg p-3">

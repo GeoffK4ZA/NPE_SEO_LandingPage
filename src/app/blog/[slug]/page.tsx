@@ -31,7 +31,7 @@ Coming home with your newborn can feel overwhelming. You're exhausted, emotional
 
 - [ ] Get multiple copies of feeding/changing logs
 - [ ] Ask about newborn care classes
-- [ ] Confirm pediatrician appointment within 48-72 hours
+- [ ] Confirm GP appointment within 48-72 hours
 - [ ] Stock up on hospital supplies (they expect you to take them!)
 
 ## Essential Supplies for Week One
@@ -60,9 +60,9 @@ When people offer to help, say yes! Have a list ready:
 - Light housework
 
 ### Track Everything
-Use our feeding and diaper logs to track:
+Use our feeding and nappy logs to track:
 - Feeding times and amounts
-- Wet and dirty diapers
+- Wet and dirty nappys
 - Sleep periods
 - Baby's mood and behavior
 
@@ -85,7 +85,7 @@ Call immediately if baby has:
 - Fever over 100.4°F (38°C)
 - Difficulty breathing
 - Extreme lethargy
-- No wet diapers in 12+ hours
+- No wet nappys in 12+ hours
 - Persistent vomiting
 
 ## Your Recovery Matters Too
@@ -107,7 +107,7 @@ Call immediately if baby has:
 Your baby will likely:
 - Sleep 16-20 hours per day
 - Eat every 2-3 hours
-- Have 6+ wet diapers daily
+- Have 6+ wet nappys daily
 - Lose some birth weight (normal up to 10%)
 
 ## Emergency Contacts List
@@ -146,7 +146,7 @@ Tracking your baby's feeding can feel overwhelming at first, but it's one of the
 ### For Your Peace of Mind
 - Helps you understand your baby's patterns
 - Ensures adequate nutrition
-- Provides data for pediatrician visits
+- Provides data for GP visits
 - Helps identify growth spurts
 
 ### For Medical Reasons
@@ -168,7 +168,7 @@ Tracking your baby's feeding can feel overwhelming at first, but it's one of the
 - Your comfort level (pain, latching issues)
 - Environmental factors (quiet vs. noisy)
 - Baby's alertness level
-- Time since last diaper change
+- Time since last nappy change
 
 ## Tracking Methods
 
@@ -242,8 +242,8 @@ Check for:
 
 ### If You're Worried About Supply
 Track:
-- Wet diapers (should have 6+ per day)
-- Weight gain at pediatrician visits
+- Wet nappys (should have 6+ per day)
+- Weight gain at GP visits
 - Baby's satisfaction after feeds
 
 ## Tips for Success
@@ -276,7 +276,7 @@ Download our feeding tracker template that includes:
 - Daily tracking sheets
 - Weekly summary pages
 - Growth tracking charts
-- Notes section for pediatrician visits
+- Notes section for GP visits
 
 This system has helped thousands of new parents feel more confident about feeding. Remember, every baby is different, and what matters most is that YOUR baby is growing and thriving.
     `,

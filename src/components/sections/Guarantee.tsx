@@ -55,7 +55,7 @@ export default function Guarantee() {
               </div>
               <h4 className="font-semibold mb-2">Manageable or Free</h4>
               <p className="text-white/80 text-sm">
-                If your week one doesn't feel more organized and manageable, get every penny back. Keep the guides anyway.
+                If your week one doesn't feel more organised and manageable, get every penny back. Keep the guides anyway.
               </p>
             </div>
           </div>
@@ -81,8 +81,8 @@ export default function Guarantee() {
               Why We're So Confident
             </h4>
             <ul className="space-y-2 text-white/90">
-              <li>• 800+ families have survived week one with this pack</li>
-              <li>• 92% say it made week one manageable</li>
+              <li>• 150+ families have used this pack successfully</li>
+              <li>• Most parents say it made week one manageable</li>
               <li>• Less than 2% request refunds</li>
               <li>• Created by parents who survived the chaos</li>
             </ul>
@@ -98,7 +98,7 @@ export default function Guarantee() {
           </p>
           <div className="bg-white/10 rounded-lg p-4">
             <p className="text-white/90 text-lg font-medium">
-              "The worst that happens? You get organized. The best? Week one becomes the foundation for confident parenting."
+              "The worst that happens? You get organised. The best? Week one becomes the foundation for confident parenting."
             </p>
           </div>
         </div>
@@ -132,7 +132,7 @@ export default function Guarantee() {
               </div>
               <div className="text-left">
                 <div className="text-white font-semibold">New Parent Essentials</div>
-                <div className="text-white/70 text-sm">Trusted by 800+ families</div>
+                <div className="text-white/70 text-sm">Trusted by 150+ families</div>
               </div>
             </div>
           </div>

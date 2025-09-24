@@ -27,7 +27,7 @@ export default function Problem() {
     {
       icon: "📞",
       title: "3AM Panic Moments",
-      description: "Baby's crying won't stop. Something feels wrong but you can't remember the pediatrician's after-hours number. Google becomes your panicked best friend.",
+      description: "Baby's crying won't stop. Something feels wrong but you can't remember the GP's out-of-hours number. Google becomes your panicked best friend.",
       weekOneReality: "Day 2: Spent 20 minutes finding doctor's number."
     }
   ];

@@ -7,7 +7,7 @@ export default function StructuredData() {
     "name": "New Parent Essentials",
     "url": "https://newparentessentials.com",
     "logo": "https://newparentessentials.com/assets/logos/New_Parent_Essentials_logo.png",
-    "description": "Transform your parenting experience with printable guides, tracking sheets, and expert advice. Get organized, feel confident, and reduce stress from day one.",
+    "description": "Transform your parenting experience with printable guides, tracking sheets, and expert advice. Get organised, feel confident, and reduce stress from day one.",
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "customer service",
@@ -65,7 +65,7 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "New Parent Essentials - Complete Guide Bundle for New Parents",
-    "description": "Transform your parenting experience with printable guides, tracking sheets, and expert advice. Get organized, feel confident, and reduce stress from day one. 30-day guarantee.",
+    "description": "Transform your parenting experience with printable guides, tracking sheets, and expert advice. Get organised, feel confident, and reduce stress from day one. 30-day guarantee.",
     "url": "https://newparentessentials.com",
     "mainEntity": {
       "@type": "Product",

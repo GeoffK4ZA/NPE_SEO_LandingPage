@@ -106,7 +106,7 @@ export default function FAQ() {
             </p>
             <div className="bg-mint/10 rounded-lg p-4 mb-6">
               <p className="text-deep-green font-medium">
-                "The worst that happens? You get organized. The best? Week one becomes manageable."
+                "The worst that happens? You get organised. The best? Week one becomes manageable."
               </p>
             </div>
             <button

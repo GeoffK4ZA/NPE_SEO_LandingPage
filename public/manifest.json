@@ -18,10 +18,15 @@
       "purpose": "any maskable"
     },
     {
-      "src": "/assets/logos/New_Parent_Essentials_logo.png",
+      "src": "/assets/logos/New_Parent_Essentials_logo-removebg-preview.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
     }
   ],
   "screenshots": [

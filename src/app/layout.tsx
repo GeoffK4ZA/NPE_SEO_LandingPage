@@ -77,13 +77,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/logos/New_Parent_Essentials_logo-removebg-preview.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/logos/New_Parent_Essentials_logo-removebg-preview.png" />
+
         {/* PWA Manifest */}
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#a1caba" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="New Parent Essentials" />
-        <link rel="apple-touch-icon" href="/assets/logos/New_Parent_Essentials_logo.png" />
+        <link rel="apple-touch-icon" href="/assets/logos/New_Parent_Essentials_logo-removebg-preview.png" />
 
         {/* Performance optimizations */}
         <link rel="preload" href="/assets/images/Cover Page.png" as="image" />

@@ -1,0 +1,35 @@
+{
+  "name": "New Parent Essentials - Complete Guide Bundle for New Parents",
+  "short_name": "New Parent Essentials",
+  "description": "Transform your parenting experience with printable guides, tracking sheets, and expert advice. Get organized, feel confident, and reduce stress from day one.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafaf8",
+  "theme_color": "#a1caba",
+  "orientation": "portrait-primary",
+  "categories": ["parenting", "lifestyle", "productivity"],
+  "lang": "en",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/assets/logos/New_Parent_Essentials_logo-removebg-preview.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/logos/New_Parent_Essentials_logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-image.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ]
+}

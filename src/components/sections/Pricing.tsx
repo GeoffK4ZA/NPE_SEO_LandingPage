@@ -17,7 +17,7 @@ export default function Pricing() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section id="pricing" className="py-20 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="bg-peach/10 rounded-xl p-6 mb-8 max-w-3xl mx-auto">
@@ -28,7 +28,10 @@ export default function Pricing() {
 
           <h2 className="text-3xl md:text-4xl font-bold text-charcoal mb-6">
             Your Complete Week One Survival Pack
-            <span className="block text-black text-5xl md:text-6xl mt-2">Just $29</span>
+            <div className="mt-4">
+              <span className="text-2xl text-charcoal/60 line-through">was £19</span>
+              <span className="block text-black text-5xl md:text-6xl mt-2">Limited Offer £9.99</span>
+            </div>
           </h2>
           <p className="text-lg text-charcoal/70 max-w-2xl mx-auto">
             Less than one takeout meal, but could save you from weeks of feeling overwhelmed and unprepared.
@@ -46,15 +49,16 @@ export default function Pricing() {
             </h3>
 
             <div className="text-center mb-6">
-              <div className="text-5xl font-bold text-black mb-2">$29</div>
+              <div className="text-2xl text-charcoal/60 line-through mb-1">was £19</div>
+              <div className="text-5xl font-bold text-black mb-2">£9.99</div>
               <div className="text-sm text-charcoal/60">One-time payment • Lifetime access</div>
             </div>
 
             <div className="bg-pale-green rounded-lg p-4 mb-6 max-w-md mx-auto">
-              <div className="text-deep-green font-semibold">🚀 Launch Week Special</div>
-              <div className="text-sm text-charcoal/70">Comparable services cost $525+ • Get it all for $29</div>
+              <div className="text-deep-green font-semibold">🚀 Limited Time Offer</div>
+              <div className="text-sm text-charcoal/70">Save 47% off regular price • Get it all for just £9.99</div>
               <div className="text-xs text-charcoal/60 mt-2">
-                ⏰ First 500 customers only • Then price increases to $47
+                ⏰ Limited time only • Then price goes back to £19
               </div>
             </div>
           </div>
@@ -100,7 +104,7 @@ export default function Pricing() {
               </div>
 
               <div className="text-center">
-                <div className="text-2xl font-bold text-teal mb-2">Get It All For $29</div>
+                <div className="text-2xl font-bold text-teal mb-2">Get It All For £9.99</div>
                 <div className="text-sm text-charcoal/70">
                   Week one essentials at a fraction of the cost
                 </div>
@@ -113,7 +117,7 @@ export default function Pricing() {
               onClick={handlePurchase}
               className="w-full md:w-auto inline-flex items-center justify-center px-12 py-4 bg-peach text-white font-bold text-xl rounded-full hover:bg-peach/80 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
-              Get My Week One Survival Pack - $29
+              Get My Week One Survival Pack - £9.99
               <svg className="w-6 h-6 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>

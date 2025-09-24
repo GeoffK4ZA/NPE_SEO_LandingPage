@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://newparentessentials.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Disallow common admin/system paths (even though they don't exist, good practice)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /temp/
+Disallow: /output/
+
+# Allow important assets
+Allow: /assets/
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.svg
+Allow: *.webp

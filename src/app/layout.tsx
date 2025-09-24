@@ -1,15 +1,21 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import StructuredData from "@/components/StructuredData";
+import SEOMonitoring from "@/components/SEOMonitoring";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: "swap",
+  preload: true,
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -71,6 +77,23 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* PWA Manifest */}
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#a1caba" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="New Parent Essentials" />
+        <link rel="apple-touch-icon" href="/assets/logos/New_Parent_Essentials_logo.png" />
+
+        {/* Performance optimizations */}
+        <link rel="preload" href="/assets/images/Cover Page.png" as="image" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+        {/* Structured Data */}
+        <StructuredData />
+
         {/* Google Analytics */}
         {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && (
           <>
@@ -114,6 +137,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <SEOMonitoring />
         {children}
         {/* Meta Pixel noscript */}
         {process.env.NEXT_PUBLIC_META_PIXEL_ID && (

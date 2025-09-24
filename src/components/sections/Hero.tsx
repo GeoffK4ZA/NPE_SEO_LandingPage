@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import CTAButton from '@/components/CTAButton';
 
 export default function Hero() {
   const handleCTAClick = () => {
@@ -43,15 +44,17 @@ export default function Hero() {
               </p>
             </div>
 
-            <button
-              onClick={handleCTAClick}
-              className="inline-flex items-center px-8 py-4 bg-mint text-charcoal font-semibold text-lg rounded-full hover:bg-teal transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 mb-4"
+            <CTAButton
+              href={process.env.NEXT_PUBLIC_STAN_STORE_URL}
+              size="lg"
+              trackingEvent="hero_primary_cta"
+              className="mb-4"
             >
               Download Instantly — Start Week One Prepared
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
-            </button>
+            </CTAButton>
 
             <div className="flex items-center justify-center lg:justify-start gap-4 mb-4 text-xs text-charcoal/60">
               <div className="flex items-center">
@@ -72,12 +75,20 @@ export default function Hero() {
               <p className="text-sm text-charcoal/60">
                 ✓ Perfect for parents-to-be or those already in the trenches
               </p>
-              <button
-                onClick={handleCTAClick}
+              <a
+                href="#pricing"
                 className="text-sm text-teal hover:text-deep-green font-semibold underline transition-colors duration-200"
+                onClick={() => {
+                  if (typeof window !== 'undefined' && window.gtag) {
+                    window.gtag('event', 'cta_click', {
+                      event_category: 'Navigation',
+                      event_label: 'hero_skip_to_pricing',
+                    });
+                  }
+                }}
               >
                 Skip to pricing →
-              </button>
+              </a>
             </div>
             <p className="text-sm text-charcoal/60">
               ✓ Instant digital download • ✓ 30-day guarantee

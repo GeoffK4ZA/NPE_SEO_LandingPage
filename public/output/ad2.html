@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Ad 2 - Transformation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .ad-container {
+            width: 1200px;
+            height: 1200px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .headline {
+            background: linear-gradient(135deg, #cfeee2 0%, #a1caba 100%);
+            font-size: 68px;
+            font-weight: bold;
+            color: #2f3a3a;
+            text-align: center;
+            padding: 60px 40px;
+            line-height: 1.1;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .transformation-container {
+            flex: 1;
+            display: flex;
+            position: relative;
+        }
+
+        .before-side {
+            width: 50%;
+            background: #f2b6a0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            position: relative;
+        }
+
+        .after-side {
+            width: 50%;
+            background: #a1caba;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            position: relative;
+        }
+
+        .side-label {
+            font-size: 48px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 40px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .fridge-mockup {
+            width: 400px;
+            height: 500px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #2f3a3a;
+            text-align: center;
+            position: relative;
+        }
+
+        .arrow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+            font-size: 120px;
+            color: white;
+            text-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            background: #6fb19f;
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+        }
+
+        .cta-button {
+            background: #6fb19f;
+            color: white;
+            font-size: 42px;
+            font-weight: bold;
+            text-align: center;
+            padding: 40px;
+            margin: 0;
+            cursor: pointer;
+        }
+
+        .chaos-elements {
+            position: absolute;
+            font-size: 40px;
+            opacity: 0.7;
+        }
+
+        .chaos-1 { top: 20px; left: 20px; }
+        .chaos-2 { bottom: 20px; right: 20px; }
+        .chaos-3 { top: 50%; left: 20px; }
+
+        .organized-elements {
+            position: absolute;
+            font-size: 40px;
+            opacity: 0.7;
+        }
+
+        .org-1 { top: 20px; right: 20px; }
+        .org-2 { bottom: 20px; left: 20px; }
+        .org-3 { top: 50%; right: 20px; }
+    </style>
+</head>
+<body>
+    <div class="ad-container">
+        <div class="headline">
+            From Chaos to Calm<br>
+            in Week One
+        </div>
+
+        <div class="transformation-container">
+            <div class="before-side">
+                <div class="chaos-elements chaos-1">📱</div>
+                <div class="chaos-elements chaos-2">😰</div>
+                <div class="chaos-elements chaos-3">🍕</div>
+
+                <div class="side-label">😰 Before</div>
+                <div class="fridge-mockup">
+                    <!-- Replace with: /public/assets/images/fridge-messy.png -->
+                    Chaotic Fridge<br>
+                    Scattered Papers<br>
+                    No Organization
+                </div>
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="after-side">
+                <div class="organized-elements org-1">📋</div>
+                <div class="organized-elements org-2">✅</div>
+                <div class="organized-elements org-3">🥗</div>
+
+                <div class="side-label">😌 After</div>
+                <div class="fridge-mockup">
+                    <!-- Replace with: /public/assets/images/Eating Plan.png -->
+                    <!-- Replace with: /public/assets/images/Shopping list.png -->
+                    Organized Fridge<br>
+                    Meal Plan Posted<br>
+                    Shopping List Ready
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-button">
+            Download your Week One Baby Survival Pack
+        </div>
+    </div>
+</body>
+</html>

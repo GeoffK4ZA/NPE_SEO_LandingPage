@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Ad 1 - Pain Point</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .ad-container {
+            width: 1200px;
+            height: 1200px;
+            background: linear-gradient(135deg, #ffded3 0%, #f2b6a0 100%);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 80px 60px;
+        }
+
+        .headline {
+            font-size: 72px;
+            font-weight: bold;
+            color: #2f3a3a;
+            text-align: center;
+            line-height: 1.1;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 10;
+        }
+
+        .main-content {
+            position: relative;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 40px 0;
+        }
+
+        .parent-image {
+            width: 400px;
+            height: 400px;
+            background: #cfeee2;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #2f3a3a;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .feeding-log-overlay {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            width: 250px;
+            height: 300px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #2f3a3a;
+            text-align: center;
+            transform: rotate(5deg);
+        }
+
+        .subtext {
+            font-size: 48px;
+            font-weight: 600;
+            color: #2f3a3a;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .cta-button {
+            background: #a1caba;
+            color: white;
+            font-size: 42px;
+            font-weight: bold;
+            text-align: center;
+            padding: 30px 60px;
+            border-radius: 60px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            margin: 0 auto;
+            max-width: 800px;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+
+        .stress-emoji {
+            position: absolute;
+            font-size: 80px;
+            opacity: 0.3;
+        }
+
+        .emoji-1 { top: 200px; left: 100px; }
+        .emoji-2 { top: 800px; right: 150px; }
+        .emoji-3 { top: 400px; left: 50px; }
+    </style>
+</head>
+<body>
+    <div class="ad-container">
+        <!-- Stress emojis in background -->
+        <div class="stress-emoji emoji-1">😰</div>
+        <div class="stress-emoji emoji-2">😴</div>
+        <div class="stress-emoji emoji-3">🤱</div>
+
+        <div class="headline">
+            Sleepless nights?<br>
+            Forgetting feeds?
+        </div>
+
+        <div class="main-content">
+            <div class="parent-image">
+                <!-- Replace with: /public/assets/images/stressed-parent.png -->
+                <div>Stressed Parent<br>Image Placeholder</div>
+
+                <div class="feeding-log-overlay">
+                    <!-- Replace with: /public/assets/images/Feeding Log.png -->
+                    Feeding Log<br>Preview
+                </div>
+            </div>
+        </div>
+
+        <div class="subtext">
+            Week one doesn't have to be chaos
+        </div>
+
+        <div class="cta-button">
+            Stay calm. We've got you.
+        </div>
+    </div>
+</body>
+</html>

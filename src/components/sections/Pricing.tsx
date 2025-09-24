@@ -82,23 +82,23 @@ export default function Pricing() {
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
                     <span>Personal meal planning service</span>
-                    <span>$150+</span>
+                    <span>£120+</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Postpartum doula session</span>
-                    <span>$100+/hr</span>
+                    <span>£80+/hr</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Lactation consultant visit</span>
-                    <span>$200+</span>
+                    <span>£160+</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Newborn care class</span>
-                    <span>$75+</span>
+                    <span>£60+</span>
                   </div>
                   <div className="border-t pt-2 font-semibold flex justify-between">
                     <span>Professional support</span>
-                    <span>$525+</span>
+                    <span>£420+</span>
                   </div>
                 </div>
               </div>
@@ -151,7 +151,7 @@ export default function Pricing() {
               🎁 First 500 Customer Bonus: Complete Week 2-4 Guide Pack
             </h3>
             <p className="text-charcoal/80 mb-4">
-              Early customers get exclusive access to our Week 2-4 expansion pack (normally $19). Plus free lifetime updates as we add new week-specific guides.
+              Early customers get exclusive access to our Week 2-4 expansion pack (normally £15). Plus free lifetime updates as we add new week-specific guides.
             </p>
             <div className="bg-white/70 rounded-lg p-3">
               <p className="text-sm text-charcoal/70">
@@ -160,7 +160,7 @@ export default function Pricing() {
             </div>
             <div className="bg-peach/20 rounded-lg p-3 mt-3">
               <p className="text-sm text-deep-green font-medium">
-                Total bonus value: $47 • Yours free as an early customer
+                Total bonus value: £37 • Yours free as an early customer
               </p>
             </div>
           </div>

@@ -25,7 +25,7 @@ export default function FAQ() {
     },
     {
       question: "My partner thinks we don't need guides - we'll figure it out.",
-      answer: "Week one isn't the time to 'wing it.' This pack costs less than one takeout meal but could prevent days of stress and overwhelm. Show them the meal plan - would they rather cook from scratch when you're both zombies, or have simple 5-minute recipes ready? The peace of mind alone is worth $29."
+      answer: "Week one isn't the time to 'wing it.' This pack costs less than one takeout meal but could prevent days of stress and overwhelm. Show them the meal plan - would they rather cook from scratch when you're both zombies, or have simple 5-minute recipes ready? The peace of mind alone is worth £9.99."
     },
     {
       question: "Can I really use this on my phone when I'm feeding baby at 3am?",

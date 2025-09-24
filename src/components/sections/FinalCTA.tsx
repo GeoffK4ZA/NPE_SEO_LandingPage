@@ -52,10 +52,11 @@ export default function FinalCTA() {
 
         <div className="mb-8">
           <div className="text-4xl md:text-5xl font-bold mb-4 text-mint">
-            Just $29
+            <span className="text-2xl line-through text-white/60 block">was £19</span>
+            Just £9.99
           </div>
           <div className="text-lg text-white/80 mb-2">
-            Week One Special Price (Usually $79) • Because week one is hard enough
+            Limited Time Offer (Save 47%) • Because week one is hard enough
           </div>
           <div className="text-white/70">
             Less than one takeout meal, but could save you from weeks of overwhelm

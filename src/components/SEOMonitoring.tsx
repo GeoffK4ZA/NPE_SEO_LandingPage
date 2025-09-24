@@ -7,7 +7,7 @@ export default function SEOMonitoring() {
     // Core Web Vitals monitoring
     if (typeof window !== 'undefined') {
       // Report Core Web Vitals to Google Analytics
-      const reportWebVitals = (metric: any) => {
+      const reportWebVitals = (metric: { name: string; value: number; id: string }) => {
         if (window.gtag) {
           window.gtag('event', metric.name, {
             event_category: 'Web Vitals',
@@ -19,12 +19,12 @@ export default function SEOMonitoring() {
       };
 
       // Import web-vitals dynamically
-      import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
-        getCLS(reportWebVitals);
-        getFID(reportWebVitals);
-        getFCP(reportWebVitals);
-        getLCP(reportWebVitals);
-        getTTFB(reportWebVitals);
+      import('web-vitals').then(({ onCLS, onINP, onFCP, onLCP, onTTFB }) => {
+        onCLS(reportWebVitals);
+        onINP(reportWebVitals);
+        onFCP(reportWebVitals);
+        onLCP(reportWebVitals);
+        onTTFB(reportWebVitals);
       }).catch(() => {
         // web-vitals not available, continue silently
       });

@@ -17,12 +17,14 @@ const nextConfig: NextConfig = {
   // Experimental features for performance
   experimental: {
     optimizePackageImports: ['react', 'react-dom'],
-    turbo: {
-      rules: {
-        '*.svg': {
-          loaders: ['@svgr/webpack'],
-          as: '*.js',
-        },
+  },
+
+  // Turbopack configuration (moved from experimental)
+  turbopack: {
+    rules: {
+      '*.svg': {
+        loaders: ['@svgr/webpack'],
+        as: '*.js',
       },
     },
   },
@@ -79,7 +81,6 @@ const nextConfig: NextConfig = {
   // PWA and performance
   poweredByHeader: false,
   reactStrictMode: true,
-  swcMinify: true,
 
   // Enable static exports for better SEO if needed
   // output: 'export',

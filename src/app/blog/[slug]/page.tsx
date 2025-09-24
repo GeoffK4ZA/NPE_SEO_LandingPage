@@ -206,11 +206,18 @@ We recommend a hybrid approach:
 3. **Notes:** Baby's mood, your observations
 
 ### Sample Entry
-```
-7:30 AM | Left breast, 15 min | Fussy before, calm after. Good latch.
-10:15 AM | Right breast, 12 min | Sleepy feeding, had to wake baby
-1:00 PM | Left breast, 20 min | Growth spurt? Very hungry
-```
+
+**Morning Feed**
+- Left breast, 15 minutes
+- Fussy before, calm after. Good latch.
+
+**Mid-Morning Feed**
+- Right breast, 12 minutes
+- Sleepy feeding, had to wake baby
+
+**Lunch Feed**
+- Left breast, 20 minutes
+- Growth spurt? Very hungry
 
 ## Common Patterns to Watch For
 
@@ -295,8 +302,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const post = blogPosts.find((post) => post.slug === params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const post = blogPosts.find((post) => post.slug === slug);
 
   if (!post) {
     return {
@@ -309,7 +317,6 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     description: post.excerpt,
     keywords: post.keywords.join(', '),
     authors: [{ name: post.author }],
-    publishedTime: post.publishDate,
     openGraph: {
       title: post.title,
       description: post.excerpt,
@@ -331,8 +338,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = blogPosts.find((post) => post.slug === params.slug);
+export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const post = blogPosts.find((post) => post.slug === slug);
 
   if (!post) {
     notFound();
